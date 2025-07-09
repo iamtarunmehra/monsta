@@ -6,7 +6,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import Swal from 'sweetalert2'
 
-export default function page() {
+export default function Page() {
     let token = useSelector((store) => store.loginStore.token)
 
     let changePassword = (event) => {
