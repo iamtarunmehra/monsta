@@ -16,6 +16,7 @@ import axios from 'axios';
 import { apiBaseUrl } from '../confilg';
 import { imageBasePath, showCart, totalAmount } from '../slice/cartSlice';
 import { redirect } from 'next/navigation';
+import Image from 'next/image';
 
 export default function Header() {
 
@@ -228,7 +229,7 @@ export default function Header() {
                     <div className={`${addToCart ? "right-[0px]" : "right-[-1000px]"} hover:text-amber-500 duration-500 lg:w-[25%] w-[100%] h-[100vh] fixed top-0 bg-white right-0 z-20`}>
                         <span onClick={() => setAddToCart(false)} className='absolute top-[30px] hover:text-amber-500 text-gray-500 right-[20px] text-[35px] cursor-pointer'>&times;</span>
                         <h4 className='my-[40px] pb-[10px] border-b-[1px] border-gray-200 text-gray-500 text-[20px] ps-[20px]'>Cart</h4>
-                        <img className='w-[300px] mx-auto' src="https://wscubetech.co/Assignments/furniture/public/frontend/img/icon/my-Order.jpg" alt="" />
+                        <Image alt='' className='w-[300px] mx-auto' src="https://wscubetech.co/Assignments/furniture/public/frontend/img/icon/my-Order.jpg" />
                         <p className='text-center text-[14px] text-gray-500 my-[20px] py-[20px] border-y-[1px] border-gray-300'>Your Shopping Cart is Empty!</p>
                     </div>
                 }
@@ -261,7 +262,7 @@ export default function Header() {
                 <div className='lg:border-y-[1px] border-gray-200 border-y-[0px] w-[100%] lg:my-[10px] my-[0px]'>
                     <div className='max-w-[1320px] px-[10px] lg:px-[0px] text-[#212121] mx-auto flex justify-between py-[15px]'>
                         <div className='lg:w-[165px] w-[180px]'>
-                            <img className='w-[100%]  h-[50px] object-contain' src={companyStaticPath + companyData.companyImage} alt="" />
+                            <Image className='w-[100%]  h-[50px] object-contain' src='https://monsta-backend-is2b.onrender.com/uploads/company-profile/1751345395940Monsta-logo-white-stroke.png' alt="" />
                         </div>
                         <div className='flex gap-[20px]'>
                             <form action="">

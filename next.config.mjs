@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+    domains: ['monsta-backend-is2b.onrender.com'],
+  },
+};
 
-export default nextConfig;
+module.exports=nextConfig
