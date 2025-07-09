@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FaAngleRight } from 'react-icons/fa6'
 import { FaHeart } from "react-icons/fa";
+import Image from 'next/image';
 
 export default function Page() {
     return (
@@ -14,7 +15,7 @@ export default function Page() {
                 </div>
             </div>
             <div className=''>
-                <img className='mx-auto mb-[25px]' src='https://wscubetech.co/Assignments/furniture/public/frontend/img/icon/wishlist-Empty.jpg' />
+                <Image alt='' className='mx-auto mb-[25px]' src='https://wscubetech.co/Assignments/furniture/public/frontend/img/icon/wishlist-Empty.jpg' />
             </div>
         </div>
     )

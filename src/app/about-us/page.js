@@ -5,6 +5,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from 'next/image';
 
 export default function Page() {
     let settings = {

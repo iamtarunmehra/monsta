@@ -9,6 +9,7 @@ import { showCart, updateCartQuantity } from '../slice/cartSlice';
 import Swal from 'sweetalert2';
 import axios from 'axios';
 import { apiBaseUrl } from '../confilg';
+import Image from 'next/image';
 
 export default function Page() {
 
@@ -98,7 +99,7 @@ export default function Page() {
                                     </td>
                                     <td className='py-3 border-[1px] border-gray-200'>
                                         <div className='w-[120px] h-[80px] mx-auto'>
-                                            <img
+                                            <Image
                                                 src={staticPath + items.product.productImage}
                                                 alt={items.product.productName}
                                                 className='w-full h-full object-cover rounded'
