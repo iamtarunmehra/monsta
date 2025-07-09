@@ -262,7 +262,7 @@ export default function Header() {
                 <div className='lg:border-y-[1px] border-gray-200 border-y-[0px] w-[100%] lg:my-[10px] my-[0px]'>
                     <div className='max-w-[1320px] px-[10px] lg:px-[0px] text-[#212121] mx-auto flex justify-between py-[15px]'>
                         <div className='lg:w-[165px] w-[180px]'>
-                            <img className='w-[100%]  h-[50px] object-contain' src='https://monsta-backend-is2b.onrender.com/uploads/company-profile/1751345395940Monsta-logo-white-stroke.png' alt="" />
+                            <Image className='w-[100%]  h-[50px] object-contain' src='https://monsta-backend-is2b.onrender.com/uploads/company-profile/1751345395940Monsta-logo-white-stroke.png' alt="" />
                         </div>
                         <div className='flex gap-[20px]'>
                             <form action="">
