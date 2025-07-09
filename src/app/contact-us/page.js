@@ -8,7 +8,7 @@ import { FaAddressCard } from "react-icons/fa6";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
-export default function page() {
+export default function Page() {
     return (
         <div className='w-[100%]'>
             <div className=''>

@@ -2,7 +2,7 @@ import React from 'react'
 import { FaHeart } from "react-icons/fa";
 
 
-export default function page() {
+export default function Page() {
     return (
         <div className='w-[100%] '>
             <h1 className='text-center text-[33px] font-bold my-[40px]'>Product Listing</h1>
@@ -181,7 +181,8 @@ export default function page() {
                     <div className='py-[25px]'>
                         <div className="hover:shadow-2xl shadow-lg max-w-[300px] bg-white rounded-[10px] overflow-hidden cursor-pointer duration-300">
                             <div className="overflow-hidden">
-                                <img
+                                <Image
+                                alt=''
                                     className="w-full h-[200px] object-cover hover:scale-110 duration-300"
                                     src='https://wscubetech.co/Assignments/furniture/storage/app/public/uploads/images/products/1617829052195Caroline%20Study%20Tables__.jpg'
                                 />

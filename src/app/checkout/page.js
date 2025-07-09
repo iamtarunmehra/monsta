@@ -11,7 +11,7 @@ import { showCart } from '../slice/cartSlice';
 import { redirect } from 'next/navigation';
 
 
-export default function page() {
+export default function Page() {
     const { Razorpay } = useRazorpay()
     let [showShipping, setShowShipping] = useState(false)
     let cartItems = useSelector((store) => store.cartStore.cartAllData)

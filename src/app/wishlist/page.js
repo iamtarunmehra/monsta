@@ -3,7 +3,7 @@ import React from 'react'
 import { FaAngleRight } from 'react-icons/fa6'
 import { FaHeart } from "react-icons/fa";
 
-export default function page() {
+export default function Page() {
     return (
         <div className='w-[100%]'>
             <div className='bg-amber-200 py-[10px] lg:rounded-b-[40%]'>

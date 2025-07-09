@@ -15,7 +15,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { app } from '../firebaseConfig/firebaseConfig';
 
 
-export default function page() {
+export default function Page() {
 
   let dispatch = useDispatch()
   let [error, setError] = useState('')
