@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-    domains: ['monsta-backend-is2b.onrender.com'],
+    domains: ['monsta-backend-a7zt.onrender.com'],
   },
 };
 
